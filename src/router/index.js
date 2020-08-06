@@ -9,6 +9,8 @@ const Roles = () => import('../views/auth/Roles')
 
 const Cate = () => import('../views/goods/Cate')
 const Params = () => import('../views/goods/Params')
+const List = () => import('../views/goods/List')
+const Add = () => import('../views/goods/Add')
 
 const Welcome = () => import('../components/content/welcome/Welcome')
 
@@ -59,6 +61,16 @@ const routes = [
         path: '/params',
         name: Params,
         component: Params
+      },
+      {
+        path: '/goods',
+        name: List,
+        component: List
+      },
+      {
+        path: '/goods/add',
+        name: Add,
+        component: Add
       }
     ]
   }

@@ -87,7 +87,7 @@
                 <el-tag closable @close="handleClose(index,scope.row)" v-for="(item,index) in scope.row.attr_vals" :key="index">
                   {{item}}
                 </el-tag>
-                <!-- 输入文本框 -->
+                <!-- 输入文本框 -->s
                 <el-input
                   class="input-new-tag"
                   v-if="scope.row.inputVisible"
